@@ -16,5 +16,10 @@ namespace GitTester
         {
             InitializeComponent();
         }
+
+        private void btn_Hi_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("누르지말랬잖아 병신아!!");
+        }
     }
 }
